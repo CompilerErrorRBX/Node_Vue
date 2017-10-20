@@ -1,0 +1,157 @@
+// Colors
+
+$primary-color: #2196f3 !default;
+$primary-color-dark: darken($primary-color, 20%) !default;
+$primary-color-light: lighten($primary-color, 20%) !default;
+$accent-color: #ffc107 !default;
+$accent-color-dark: darken($accent-color, 20%) !default;
+$accent-color-light: lighten($accent-color, 20%) !default;
+
+// Text Colors
+$app-text-color: rgba(0,0,0,0.55) !default;
+$app-heading-color: rgba(0,0,0,0.85) !default;
+$primary-text-color: rgba(255,255,255,0.8) !default;
+$primary-text-color-dark: darken($primary-text-color, 20%) !default;
+$primary-text-color-light: lighten($primary-text-color, 20%) !default;
+$accent-text-color: rgba(255,255,255,0.8) !default;
+$accent-text-color-dark: darken($accent-text-color, 20%) !default;
+$accent-text-color-light: lighten($accent-text-color, 20%) !default;
+
+// Responsiveness
+
+$breakpoint-xsmall: 600px !default;
+$breakpoint-small: 960px !default;
+$breakpoint-medium: 1280px !default;
+$breakpoint-large: 1920px !default;
+
+// Animation
+
+$base-transition: .2s !default;
+
+// Transitions
+
+$swift-ease-out-duration: .25s !default;
+$swift-ease-out-timing-function: cubic-bezier(.25, .8, .25, 1) !default;
+$swift-ease-out: all $swift-ease-out-duration $swift-ease-out-timing-function !default;
+
+$swift-ease-in-duration: .225s !default;
+$swift-ease-in-timing-function: cubic-bezier(.55, 0, .55, .2) !default;
+$swift-ease-in: all $swift-ease-in-duration $swift-ease-in-timing-function !default;
+
+$swift-ease-in-out-duration: .3s !default;
+$swift-ease-in-out-timing-function: cubic-bezier(.35, 0, .25, 1) !default;
+$swift-ease-in-out: all $swift-ease-in-out-duration $swift-ease-in-out-timing-function !default;
+
+$swift-linear-duration: .15s !default;
+$swift-linear-timing-function: linear !default;
+$swift-linear: all $swift-linear-duration $swift-linear-timing-function !default;
+
+$material-enter-duration: .215s;
+$material-enter-timing-function: cubic-bezier(.0, .0, .2, 1);
+$material-enter: all $material-enter-duration $material-enter-timing-function;
+
+$material-leave-duration: .215s;
+$material-leave-timing-function: cubic-bezier(.4, .0, 1, 1);
+$material-leave: all $material-leave-duration $material-leave-timing-function;
+
+// Elevation
+
+$umbra-opacity: .2 !default;
+$penumbra-opacity: .14 !default;
+$ambient-opacity: .12 !default;
+
+$depth-1dp: 0 1px 3px rgba(#000, $umbra-opacity),
+                      0 1px 1px rgba(#000, $penumbra-opacity),
+                      0 2px 1px -1px rgba(#000, $ambient-opacity) !default;
+
+$depth-2dp: 0 1px 5px rgba(#000, $umbra-opacity),
+                      0 2px 2px rgba(#000, $penumbra-opacity),
+                      0 3px 1px -2px rgba(#000, $ambient-opacity) !default;
+
+$depth-3dp: 0 1px 8px rgba(#000, $umbra-opacity),
+                      0 3px 4px rgba(#000, $penumbra-opacity),
+                      0 3px 3px -2px rgba(#000, $ambient-opacity) !default;
+
+$depth-4dp: 0 2px 4px -1px rgba(#000, $umbra-opacity),
+                      0 4px 5px rgba(#000, $penumbra-opacity),
+                      0 1px 10px rgba(#000, $ambient-opacity) !default;
+
+$depth-5dp: 0 3px 5px -1px rgba(#000, $umbra-opacity),
+                      0 5px 8px rgba(#000, $penumbra-opacity),
+                      0 1px 14px rgba(#000, $ambient-opacity) !default;
+
+$depth-6dp: 0 3px 5px -1px rgba(#000, $umbra-opacity),
+                      0 6px 10px rgba(#000, $penumbra-opacity),
+                      0 1px 18px rgba(#000, $ambient-opacity) !default;
+
+$depth-7dp: 0 4px 5px -2px rgba(#000, $umbra-opacity),
+                      0 7px 10px 1px rgba(#000, $penumbra-opacity),
+                      0 2px 16px 1px rgba(#000, $ambient-opacity) !default;
+
+$depth-8dp: 0 5px 5px -3px rgba(#000, $umbra-opacity),
+                      0 8px 10px 1px rgba(#000, $penumbra-opacity),
+                      0 3px 14px 2px rgba(#000, $ambient-opacity) !default;
+
+$depth-9dp: 0 5px 6px -3px rgba(#000, $umbra-opacity),
+                      0 9px 12px 1px rgba(#000, $penumbra-opacity),
+                      0 3px 16px 2px rgba(#000, $ambient-opacity) !default;
+
+$depth-10dp: 0 6px 6px -3px rgba(#000, $umbra-opacity),
+                       0 10px 14px 1px rgba(#000, $penumbra-opacity),
+                       0 4px 18px 3px rgba(#000, $ambient-opacity) !default;
+
+$depth-11dp: 0 6px 7px -4px rgba(#000, $umbra-opacity),
+                       0 11px 15px 1px rgba(#000, $penumbra-opacity),
+                       0 4px 20px 3px rgba(#000, $ambient-opacity) !default;
+
+$depth-12dp: 0 7px 8px -4px rgba(#000, $umbra-opacity),
+                       0 12px 17px 2px rgba(#000, $penumbra-opacity),
+                       0 5px 22px 4px rgba(#000, $ambient-opacity) !default;
+
+$depth-13dp: 0 7px 8px -4px rgba(#000, $umbra-opacity),
+                       0 13px 19px 2px rgba(#000, $penumbra-opacity),
+                       0 5px 24px 4px rgba(#000, $ambient-opacity) !default;
+
+$depth-14dp: 0 7px 9px -4px rgba(#000, $umbra-opacity),
+                       0 14px 21px 2px rgba(#000, $penumbra-opacity),
+                       0 5px 26px 4px rgba(#000, $ambient-opacity) !default;
+
+$depth-15dp: 0 8px 9px -5px rgba(#000, $umbra-opacity),
+                       0 15px 22px 2px rgba(#000, $penumbra-opacity),
+                       0 6px 28px 5px rgba(#000, $ambient-opacity) !default;
+
+$depth-16dp: 0 8px 10px -5px rgba(#000, $umbra-opacity),
+                       0 16px 24px 2px rgba(#000, $penumbra-opacity),
+                       0 6px 30px 5px rgba(#000, $ambient-opacity) !default;
+
+$depth-17dp: 0 8px 11px -5px rgba(#000, $umbra-opacity),
+                       0 17px 26px 2px rgba(#000, $penumbra-opacity),
+                       0 6px 32px 5px rgba(#000, $ambient-opacity) !default;
+
+$depth-18dp: 0 9px 11px -5px rgba(#000, $umbra-opacity),
+                       0 18px 28px 2px rgba(#000, $penumbra-opacity),
+                       0 7px 34px 6px rgba(#000, $ambient-opacity) !default;
+
+$depth-19dp: 0 9px 12px -6px rgba(#000, $umbra-opacity),
+                       0 19px 29px 2px rgba(#000, $penumbra-opacity),
+                       0 7px 36px 6px rgba(#000, $ambient-opacity) !default;
+
+$depth-20dp: 0 10px 13px -6px rgba(#000, $umbra-opacity),
+                       0 20px 31px 3px rgba(#000, $penumbra-opacity),
+                       0 8px 38px 7px rgba(#000, $ambient-opacity) !default;
+
+$depth-21dp: 0 10px 13px -6px rgba(#000, $umbra-opacity),
+                       0 21px 33px 3px rgba(#000, $penumbra-opacity),
+                       0 8px 40px 7px rgba(#000, $ambient-opacity) !default;
+
+$depth-22dp: 0 10px 14px -6px rgba(#000, $umbra-opacity),
+                       0 22px 35px 3px rgba(#000, $penumbra-opacity),
+                       0 8px 42px 7px rgba(#000, $ambient-opacity) !default;
+
+$depth-23dp: 0 11px 14px -7px rgba(#000, $umbra-opacity),
+                       0 23px 36px 3px rgba(#000, $penumbra-opacity),
+                       0 9px 44px 8px rgba(#000, $ambient-opacity) !default;
+
+$depth-24dp: 0 11px 15px -7px rgba(#000, $umbra-opacity),
+                       0 24px 38px 3px rgba(#000, $penumbra-opacity),
+                       0 9px 46px 8px rgba(#000, $ambient-opacity) !default;
